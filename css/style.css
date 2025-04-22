@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: #fefefe !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6, .navbar-brand, button{
+    font-family: "Bebas Neue", sans-serif !important;
+}
+.navbar-brand{
+    font-size: 32px !important;
+}
+h1{
+    font-size: 56px !important;
+}
+h2{
+    font-size: 48px !important;
+}
+h3{
+    font-size: 42px !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: orange !important;
+}
+.active-item{
+    color: orange !important;
+}
+.divider{
+    margin-top: 50px !important;
+}
+
+.slide{
+    /* height: 400px; */
+    
+}
+.slide .overlay{
+    padding: 200px 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.slide-1{
+    background: url('../images/slide1.webp') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.slide-2{
+    background: url('../images/slide2.webp') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.o-btn{
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: 0.6s;
+}
+.o-btn:hover{
+    background: white;
+    color: black;
+}
+
+img,.card{
+    border-radius: 7px !important;
+}
+
+.bg-video{
+    background: url('../images/img3.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-inner{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 250px 0;
+    position: relative;
+}
+
+.bg-inner .play-icon{
+    width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.bg-inner .play-icon .fa-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+.video-section{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 200px 0px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+
+}
+.close-video{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+.close-video i{
+    color: white;
+    font-size: 22px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+
+}
+footer li{
+    line-height: 35px;
+
+}
+
+footer li a{
+    color: black;
+    text-decoration: none;
+}
+
+.abc{
+    margin-left: 8px !important;
+}
+
+.imgs{
+    height: 350px;
+}
